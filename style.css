@@ -1,4 +1,4 @@
-/* Reset dasar */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Warna utama */
+
 :root {
   --primary-pink: #ff69b4;
   --light-pink: #ffe4ec;
@@ -14,13 +14,13 @@
   --text-dark: #333;
 }
 
-/* Body */
+
 body {
   background-color: var(--light-pink);
   color: var(--text-dark);
 }
 
-/* Header */
+
 header {
   background-color: var(--primary-pink);
   padding: 15px 30px;
@@ -30,7 +30,7 @@ header {
   font-weight: bold;
 }
 
-/* Navigasi */
+
 nav ul {
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@ nav ul li a:hover {
   color: var(--dark-pink);
 }
 
-/* Kartu produk */
+
 .product-card {
   background: white;
   border: 2px solid var(--primary-pink);
@@ -78,7 +78,7 @@ nav ul li a:hover {
   box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
 }
 
-/* Tombol */
+
 button {
   background-color: var(--primary-pink);
   border: none;
@@ -94,7 +94,7 @@ button:hover {
   background-color: var(--dark-pink);
 }
 
-/* Footer */
+
 footer {
   background-color: var(--primary-pink);
   color: white;
