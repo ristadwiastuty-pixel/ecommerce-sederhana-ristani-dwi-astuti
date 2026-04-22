@@ -4,25 +4,25 @@
   --pink-hover: #f4a6c0;
   --text-dark: #444;
   --white: #fff;
-}
+  
 body {
   background-color: var(--pink-soft);
   font-family: 'Poppins', sans-serif;
   color: var(--text-dark);
   margin: 0;
   padding: 0;
-}
+
 header {
   background-color: var(--pink-pastel);
   text-align: center;
   padding: 20px;
   border-bottom: 3px solid var(--pink-hover);
-}
+
 header h1 {
   font-size: 2.5rem;
   color: var(--text-dark);
   letter-spacing: 2px;
-}
+
 button {
   background-color: var(--pink-pastel);
   border: none;
@@ -32,12 +32,12 @@ button {
   color: var(--text-dark);
   cursor: pointer;
   transition: all 0.3s ease;
-}
+
 button:hover {
   background-color: var(--pink-hover);
   color: var(--white);
   transform: scale(1.05);
-}
+
 .card {
   background-color: var(--white);
   border: 2px solid var(--pink-pastel);
@@ -47,21 +47,19 @@ button:hover {
   width: 300px;
   box-shadow: 0 4px 8px rgba(244, 166, 192, 0.3);
   transition: transform 0.3s ease;
-}
+
 
 .card:hover {
   transform: translateY(-5px);
-}
 
-/* Link */
 a {
   color: var(--pink-hover);
   text-decoration: none;
   font-weight: bold;
-}
+
 
 a:hover {
   text-decoration: underline;
-}
+
 
  
