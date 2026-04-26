@@ -6,10 +6,9 @@
 }
 
 body {
-  background-color: #fff5f8; 
+  background-color: #fff5f8;
   color: #333;
 }
-
 .header {
   background-color: #ffdafb;
   padding: 15px 30px;
@@ -24,7 +23,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #e91e63; 
+  color: #e91e63;
 }
 
 .search-box input {
@@ -62,7 +61,6 @@ body {
 
 .hero-content p {
   margin: 15px 0;
-  color: #666;
 }
 
 .btn-hero {
@@ -71,14 +69,8 @@ body {
   border-radius: 20px;
   color: white;
   text-decoration: none;
-  font-weight: 500;
 }
-
-.btn-hero:hover {
-  background: #e91e63;
-}
-
-.categories {
+.categoris {
   padding: 40px;
   text-align: center;
 }
@@ -94,13 +86,6 @@ body {
   padding: 20px;
   border-radius: 15px;
   width: 120px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.category-card:hover {
-  background: #fbc2d9;
-  transform: translateY(-2px);
 }
 
 .container {
@@ -120,13 +105,6 @@ body {
   padding: 15px;
   background: white;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.15);
-  transition: 0.3s;
-}
-
-.product-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.25);
 }
 
 .product-card img {
@@ -136,28 +114,18 @@ body {
 
 .product-card button {
   margin-top: 10px;
-  padding: 8px 16px;
+  padding: 8px;
   border: none;
   border-radius: 20px;
   background: #f875aa;
   color: white;
   cursor: pointer;
-  font-size: 0.9rem;
-}
-
-.product-card button:hover {
-  background: #e91e63;
 }
 
 footer {
   background: #ffdafb;
   padding: 20px;
   text-align: center;
-  transition: 0.3s;
-}
-
-footer:hover {
-  background: #fbc2d9;
 }
 
 .footer-menu ul {
@@ -170,15 +138,8 @@ footer:hover {
 .footer-menu a {
   text-decoration: none;
   color: #e91e63;
-  font-weight: 500;
-}
-
-.footer-menu a:hover {
-  text-decoration: underline;
 }
 
 .contact-info {
   margin-top: 10px;
-  font-size: 0.9rem;
-  color: #666;
 }
