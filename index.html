@@ -7,85 +7,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="header">
-    <nav class="navbar">
-      <div class="logo">HouseOf.ri</div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">HouseOf.ri</div>
 
-      <div class="search-box">
-        <input type="text" placeholder="Cari produk..." />
-      </div>
+            <div class="search-box">
+                <input type="text" placeholder="Cari produk..." />
+            </div>
 
-      <ul class="nav-links">
-        ><a href="#beranda">Beranda</a></li>
-        ><a href="#kategori">Kategori</a></li>
-        ><a href="#produk">Produk</a></li>
-        >
-          <a href="#" id="cart-icon" onclick="checkoutAlert(event)">
-            🛒 Keranjang (<span id="cart-count">0</span>)
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-<main>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#kategori">Kategori</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li>
+                    <a href="#" id="cart-icon" onclick="checkoutAlert(event)">
+                        🛒 Keranjang (<span id="cart-count">0</span>)
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
         <section class="hero" id="beranda">
             <div class="hiro-content">
-                <h1>rasakan kehangat dalam setiap rajutan</h1>
+                <h1>rasakan kehangatan dalam setiap rajutan</h1>
                 <p>pakaian yang cocok digunakan untuk daily</p>
                 <a href="#produk" class="btn-hero">belanja sekarang</a>
             </div>
         </section>
+
         <section class="categories" id="kategori">
-        <h2 class="section-title"></h2>
-        <div class="category-grid">
-             <div class="category-card">celana</div>
-              <div class="category-card">baju</div>
-               <div class="category-card">cardigan</div>
+            <h2 class="section-title">Kategori</h2>
+            <div class="category-grid">
+                <div class="category-card">celana</div>
+                <div class="category-card">baju</div>
+                <div class="category-card">cardigan</div>
                 <div class="category-card">sweater</div>
-        </div>
+            </div>
         </section>
+
         <section class="container" id="produk">
             <h2 class="section-title">produk unggulan</h2>
-             <div class="product-card">
-            <img src="produk1.jpg" alt="product 1">
-            <h3>product 1 </h3>
-            <p>description of product</p>
-            <span>Rp 299.000</span>
-            <button>add to cart</button>
+            <div class="product-card">
+                <img src="produk1.jpg" alt="product 1">
+                <h3>product 1</h3>
+                <p>description of product</p>
+                <span>Rp 299.000</span>
+                <button>add to cart</button>
             </div>
 
-             <div class="product-card">
-            <img src="produk2.jpg" alt="product 1">
-            <h3>product 1 </h3>
-            <p>description of product</p>
-            <span>Rp 160.000</span>
-            <button>add to cart</button>
+            <div class="product-card">
+                <img src="produk2.jpg" alt="product 2">
+                <h3>product 2</h3>
+                <p>description of product</p>
+                <span>Rp 160.000</span>
+                <button>add to cart</button>
             </div>
 
-             <div class="product-card">
-            <img src="produk3.jpg" alt="product 1">
-            <h3>product 1 </h3>
-            <p>description of product</p>
-            <span>Rp 190.000</span>
-            <button>add to cart</button>
+            <div class="product-card">
+                <img src="produk3.jpg" alt="product 3">
+                <h3>product 3</h3>
+                <p>description of product</p>
+                <span>Rp 190.000</span>
+                <button>add to cart</button>
             </div>
 
-             <div class="product-card">
-            <img src="produk4.jpg" alt="product 1">
-            <h3>product 1 </h3>
-            <p>description of product</p>
-            <span>Rp 250.000</span>
-            <button>add to cart</button>
+            <div class="product-card">
+                <img src="produk4.jpg" alt="product 4">
+                <h3>product 4</h3>
+                <p>description of product</p>
+                <span>Rp 250.000</span>
+                <button>add to cart</button>
             </div>
-        </section
+        </section>
     </main>
+
     <footer>
         <div class="footer-menu">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#beranda">Home</a></li>
+                <li><a href="#produk">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         <div class="contact-info">
@@ -93,5 +97,5 @@
             <p>Phone: 0838-4426-6007</p>
         </div>
     </footer>
-    </body>
+</body>
 </html>
