@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header / Navbar -->
     <header class="header">
         <nav class="navbar">
             <div class="logo">HouseOf.ri</div>
@@ -28,15 +29,17 @@
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <main>
         <section class="hero" id="beranda">
-            <div class="hiro-content">
+            <div class="hero-content">
                 <h1>rasakan kehangatan dalam setiap rajutan</h1>
                 <p>pakaian yang cocok digunakan untuk daily</p>
                 <a href="#produk" class="btn-hero">belanja sekarang</a>
             </div>
         </section>
 
+        <!-- Kategori Section -->
         <section class="categories" id="kategori">
             <h2 class="section-title">Kategori</h2>
             <div class="category-grid">
@@ -47,8 +50,10 @@
             </div>
         </section>
 
+        <!-- Produk Section -->
         <section class="container" id="produk">
             <h2 class="section-title">produk unggulan</h2>
+
             <div class="product-card">
                 <img src="produk1.jpg" alt="product 1">
                 <h3>product 1</h3>
@@ -83,13 +88,14 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="footer-menu">
             <ul>
                 <li><a href="#beranda">Home</a></li>
                 <li><a href="#produk">Products</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
         <div class="contact-info">
@@ -97,5 +103,13 @@
             <p>Phone: 0838-4426-6007</p>
         </div>
     </footer>
+
+    <!-- Script (opsional) -->
+    <script>
+        function checkoutAlert(event) {
+            event.preventDefault();
+            alert("Keranjang akan dibuka nanti.");
+        }
+    </script>
 </body>
 </html>
