@@ -1,5 +1,5 @@
 
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,12 +8,11 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #fffafc; /* Pink muda sangat pucat */
+    background-color: #fffafc;
 }
 
-/* Header & Navigasi */
 .header {
-    background-color: #ffcce0; /* Pink pastel */
+    background-color: #ffcce0;
     padding: 1rem 2rem;
 }
 
@@ -26,7 +25,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #d63384; /* Pink tua untuk kontras */
+    color: #d63384; 
 }
 
 .nav-links {
@@ -41,7 +40,6 @@ body {
     font-weight: 500;
 }
 
-/* Hero Section */
 .hero {
     background-color: #ffebf4;
     padding: 4rem 2rem;
@@ -63,7 +61,6 @@ body {
     background-color: #d63384;
 }
 
-/* Produk & Kategori */
 .container, .categories {
     padding: 2rem;
 }
@@ -106,7 +103,6 @@ button:hover {
     background-color: #d63384;
 }
 
-/* Footer */
 footer {
     background-color: #ffcce0;
     padding: 2rem;
