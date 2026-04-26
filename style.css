@@ -1,4 +1,4 @@
-:root {
+root {
   --pink-pastel: #f8c8dc;
   --pink-soft: #ffe4ec;
   --pink-hover: #f4a6c0;
@@ -60,6 +60,3 @@ a {
 
 a:hover {
   text-decoration: underline;
-
-
- 
