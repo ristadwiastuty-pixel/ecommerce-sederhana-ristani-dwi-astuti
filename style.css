@@ -6,7 +6,7 @@
 }
 
 
-* {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +18,7 @@ body {
   color: var(--text-dark);
 }
 
-
+/* Header & Navbar */
 .header {
   background: var(--yellow-pastel);
   padding: 15px 30px;
@@ -59,7 +59,7 @@ body {
   color: #e07a9c;
 }
 
-
+/* Hero section */
 .hero {
   background: linear-gradient(to right, var(--pink-pastel), var(--yellow-pastel));
   padding: 60px 20px;
@@ -166,4 +166,3 @@ footer {
 .footer-menu a:hover {
   color: #e07a9c;
 }
-
