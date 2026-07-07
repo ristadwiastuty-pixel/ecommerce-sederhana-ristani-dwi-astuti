@@ -236,4 +236,4 @@ Langkah deploy ulang (jika ada perubahan file):
 - Live Website: [ristadwiastuty-pixel.github.io/ristani_Bite-me-bakery_ABI-1](https://ristadwiastuty-pixel.github.io/ristani_Bite-me-bakery_ABI-1/)
 
 ---
-*Dibuat dengan 🤎 untuk Bite Me Bakery — Halo, Sweet Tooth! Selamat datang di Bite me bakery. Kami percaya bahwa hari yang buruk selalu bisa diperbaiki dengan potongan kue yang tepat. Temukan kreasi dessert premium yang lumer di mulut dan siap membuat harimu berkurang penatnya. Yuk, pilih kebahagiaanmu hari ini!*
+*Dibuat dengan 🤎 oleh Bite Me Bakery — Halo, Sweet Tooth! Selamat datang di Bite me bakery. Kami percaya bahwa hari yang buruk selalu bisa diperbaiki dengan potongan kue yang tepat. Temukan kreasi dessert premium yang lumer di mulut dan siap membuat harimu berkurang penatnya. Yuk, pilih kebahagiaanmu hari ini!*
