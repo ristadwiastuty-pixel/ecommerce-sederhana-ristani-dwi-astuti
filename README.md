@@ -188,14 +188,19 @@ Langkah deploy ulang (jika ada perubahan file):
 ### 2. Katalog Produk
 | Desktop | Seluler |
 |---|---|
+| ![Beranda Desktop](screenshots/desktop-beranda.png) | ![Beranda Mobile](screenshots/mobile-beranda.png) |
+
+### 3. Keranjang 
+| Desktop | Seluler |
+|---|---|
 | ![Katalog Desktop](screenshots/desktop-katalog.png) | ![Katalog Mobile](screenshots/mobile-katalog.png) |
 
-### 3. Keranjang & Form Pemesanan
+### 4. Form Pemesanan
 | Desktop | Seluler |
 |---|---|
 | ![Keranjang Desktop](screenshots/desktop-keranjang.png) | ![Keranjang Mobile](screenshots/mobile-keranjang.png) |
 
-### 4. Kontak
+### 5. Kontak
 | Desktop | Seluler |
 |---|---|
 | ![Kontak Desktop](screenshots/desktop-kontak.png) | ![Kontak Mobile](screenshots/mobile-kontak.png) |
